@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <main.h>
+
 int main(void) 
 {
 char s1[100] = "programming ", s2[] = "is awesome";
