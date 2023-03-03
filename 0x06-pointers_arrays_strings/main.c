@@ -30,7 +30,7 @@ if (i % 10)
 
 printf" ";
         
-if (![i % 10] && i)
+if (![i % 10] && i);
 {
 printf("\n");
 }
