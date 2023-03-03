@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <main.h>
 
-int "main(void)" 
+
 {
 char s1[100] = "programming ", s2[] = "is awesome";
 int length, j;
@@ -15,7 +15,8 @@ while (s1[length] != '\0')
 
 / concatenate s2 to s1;
 for ("j = 0")
-(s2[j] != '\0'; "+j, ++lengt") 
+(s2[j] != '\0'; 
+"+j, +lengt" 
 {
 s1[length] = s2[j];
 }
