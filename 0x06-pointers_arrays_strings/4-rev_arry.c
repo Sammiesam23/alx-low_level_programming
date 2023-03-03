@@ -1,9 +1,7 @@
 #include "main.h"
 /**
  * reverse_array - reverse array of integers
- * 
-@ABDULSAMAD ABDULSAMAD
-: array
+ * @a: array
  * @n: number of elements of array
  *
  * Return: void
@@ -12,6 +10,7 @@ void reverse_array(int *a, int n)
 {
 	int b;
 	int k;
+
 	for (b = 0; b < n--; b++)
 	{
 		k = a[b];
@@ -19,3 +18,4 @@ void reverse_array(int *a, int n)
 		a[n] = k;
 	}
 }
+
