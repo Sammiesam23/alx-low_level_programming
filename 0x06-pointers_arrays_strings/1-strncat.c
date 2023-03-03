@@ -15,8 +15,7 @@ while (s1[length] != '\0')
 
 / concatenate s2 to s1;
 for ("j = 0")
-(s2[j] != '\0'; 
-"+j, +lengt" 
+(s2[j] != '\0'; "+j, +lengt") 
 {
 s1[length] = s2[j];
 }
