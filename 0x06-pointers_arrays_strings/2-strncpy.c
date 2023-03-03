@@ -1,29 +1,30 @@
 #include "main.h"
-
 /**
- * _strncpy - A function that copies a string
- * @dest: The first paramenter
- * @src: The second parameter
- * @n: The n parameter
+ * _strncpy - copy a string
+ * @dest: input value
+ * @src: input value
+ * @n: input value
  *
- * Return: the string
+ * Return: dest
  */
-
 char *_strncpy(char *dest, char *src, int n)
 {
-	int str;
-
-	str = 0;
-
-	while (str < n && src[str] != '\0')
+	int j;
+	j = 0;
+	while (j < n && src[j] != '\0')
 	{
-		dest[str] = src[str];
-		str++;
+		dest[j] = src[j];
+		j++;
 	}
-	while (str < n)
+	while (j < n)
 	{
-		dest[str] = '\0';
-		str++;
+		dest[j] = '\0';
+		j++;
 	}
 	return (dest);
 }
+
+
+
+
+
