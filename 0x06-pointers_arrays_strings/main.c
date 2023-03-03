@@ -27,8 +27,8 @@ printf("%s", ptr);
 for (i = 0; i < 98; i++)
 {
 if (i % 10)
-        
-printf(" ");
+
+printf" ";
         
 if (![i % 10] && i)
 {
