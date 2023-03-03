@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * A function that compares two strings.
+ * write a function that compares two strings.
  * @s1: first parameter to be compared.
  * @s2: second parameter to be compared.
  *
